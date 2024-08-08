@@ -20,8 +20,8 @@ let middlewarePoints=['/todo','/todoget/:email','/todoupd/:id','/tododlt/:id']
 const mongoconnect = async()=>{
     try {
         let connection = mongoose.connect("mongodb+srv://Jegan:%40Jegan123@cluster0.lhjs2jt.mongodb.net/",{
-            useNewUrlParser:true,
-            useUnifiedTopology:true
+            // useNewUrlParser:true,
+            // useUnifiedTopology:true
         })
         console.log("Mongo db successfully connected", (await connection).Connection.host)
     } catch (error) {
