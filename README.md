@@ -23,4 +23,4 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todolist-mern.git
+   git clone https://github.com/jegannathan-mp/todolist-mern.git
